@@ -1,0 +1,76 @@
+body {
+    background-color: #22252a;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+#main-container p {
+    text-align: center;
+    padding-top: 20px;
+    word-wrap: break-word;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+
+#main-container h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 12rem;
+    top: 30px;
+    color: white;
+}
+
+#input-form {
+    position: relative;
+    left: 28%;
+    top: 2%;
+    width: 340px;
+    position: relative;
+    left: 15%;
+    height: 45px;
+}
+
+#main-container {
+    background-color: #2E3440;
+    width: 500px;
+    position: relative;
+    left: 30%;
+    height: 300px;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 10px 11px 9px 1px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 10px 11px 9px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 10px 11px 9px 1px rgba(0, 0, 0, 0.25);
+}
+
+#download-btn {
+    width: 348px;
+    position: relative;
+    left: 15%;
+    height: 30px;
+    top: 4%;
+    background-color: #88C0D0;
+    border: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#github-icon {
+    margin: 0;
+    position: relative;
+    left: 47.5%;
+    margin-top: 7.5%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#input-form:valid~#download-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
